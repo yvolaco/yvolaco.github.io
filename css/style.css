@@ -296,6 +296,9 @@ float:none;
 }
 
 @media only screen and (max-width: 500px) {
+.body {
+  overflow:hidden;
+}
   .nav {
     font-size: 0.9em;
   }
@@ -324,4 +327,5 @@ float:none;
     text-transform: uppercase;
     color: #8d8d8d;
   }
+
 }
