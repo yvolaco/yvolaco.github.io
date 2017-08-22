@@ -300,7 +300,9 @@ footer {
   @media only screen and (max-width: 500px) {
     body {
       height:100%;
-      background-position: center right;
+      top:0;
+      left:0;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment:scroll !important;
