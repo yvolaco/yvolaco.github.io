@@ -178,9 +178,9 @@ h4 {
   text-transform: none;
   margin-left: 5%;
   margin-right: 5%;
-  letter-spacing: -0.02em;
   padding: 5px;
   font-weight:400;
+  line-height:1.5;
 }
 
 footer {
