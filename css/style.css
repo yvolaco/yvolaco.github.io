@@ -308,6 +308,9 @@ footer {
     .nav {
       font-size: 0.9em;
     }
+    .title {
+      padding-top:10vh;
+    }
 footer {
   bottom:10px;
 }
@@ -340,6 +343,10 @@ footer {
     #biotext {
       text-align: justify;
       width: 85%;
+    }
+
+    #bioimg {
+      width:40%;
     }
 
     .overlay .content {
