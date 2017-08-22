@@ -15,6 +15,10 @@ $(document).ready(function() {
     $(".upcoming").toggleClass("selected");
   });
 
+  $("#contact").click(function() {
+    $(".contact").toggleClass("selected");
+  });
+
   $(".close").click(function() {
     $(".selected").removeClass("selected");
   });
