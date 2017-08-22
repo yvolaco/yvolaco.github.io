@@ -351,7 +351,7 @@ footer {
       color: #8d8d8d;
     }
     .overlay {
-      margin-bottom: 80px !important;
+      margin-bottom: 80px;
     }
 
     .overlay .content {
