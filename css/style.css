@@ -209,10 +209,10 @@ footer {
 }
 
 .close {
-  font-size: 2em;
-  top: -15px;
+  font-size: 1em;
+  top: 0;
   right: 0;
-  padding: 15px;
+  padding: 10px;
   position: fixed;
   display: block;
   font-family: 'Montserrat', sans-serif;
