@@ -309,7 +309,7 @@ footer {
       font-size: 0.9em;
     }
     .title {
-      padding-top:10vh;
+      padding-top:20vh;
     }
 footer {
   bottom:10px;
@@ -346,7 +346,7 @@ footer {
     }
 
     #bioimg {
-      width:40%;
+      width:35%;
     }
 
     .overlay .content {
