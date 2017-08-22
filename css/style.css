@@ -353,12 +353,11 @@ footer {
 
     #biotext {
       text-align: justify;
-      width: 90%;
+      width: 88%;
     }
 
     #bioimg {
       display: block;
-      float: center;
       position: relative;
     }
 
