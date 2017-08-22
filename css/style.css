@@ -298,19 +298,19 @@ footer {
     }
   }
   @media only screen and (max-width: 500px) {
-    body {
-      height:100vh;
+    html, body {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       overflow: hidden;
-      padding-bottom:44px;
+      position:relative;
     }
 
 
 .wrapper{
 position:relative;
 overflow:hidden;
+  padding-bottom:44px;
 }
 
     .nav {
