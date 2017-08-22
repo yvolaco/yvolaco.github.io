@@ -303,7 +303,7 @@ footer {
       overflow: hidden;
     }
     .nav {
-      font-size: 0.35em;
+      font-size: 0.45em;
     }
     ul {
       padding-right: 5px;
@@ -316,7 +316,7 @@ footer {
     }
     h1 {
       font-weight: 100;
-      font-size: 1.6em;
+      font-size: 1.8em;
       transition: transform 0.5s ease;
       opacity: 1;
     }
