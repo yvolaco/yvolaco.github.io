@@ -350,12 +350,10 @@ footer {
       text-transform: uppercase;
       color: #8d8d8d;
     }
-    .overlay {
-      margin-bottom: 80px;
-    }
 
     .overlay .content {
       margin-left: 0.5%;
       margin-right:0.5%;
+      margin-bottom: 10% !important;
     }
   }
