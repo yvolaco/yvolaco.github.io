@@ -300,6 +300,10 @@ footer {
   }
   @media only screen and (max-width: 500px) {
     body {
+      height:100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       overflow: hidden;
     }
     .nav {
