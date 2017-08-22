@@ -210,14 +210,14 @@ footer {
 
 .close {
   font-size: 2em;
-  top: -10px;
+  top: -15px;
   right: 0;
   padding: 15px;
   position: fixed;
   display: block;
   font-family: 'Montserrat', sans-serif;
   color: #ffa390;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 .close:hover {
