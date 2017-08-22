@@ -356,6 +356,12 @@ footer {
       width: 90%;
     }
 
+    #bioimg {
+      display: block;
+      float: center;
+      position: relative;
+    }
+
     .overlay .content {
       margin-left: 0.5%;
       margin-right:0.5%;
