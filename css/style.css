@@ -352,6 +352,7 @@ footer {
     }
     .overlay {
       margin-bottom: 80px;
+      overflow:scroll;
     }
 
     .overlay .content {
