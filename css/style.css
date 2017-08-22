@@ -300,7 +300,7 @@ footer {
   @media only screen and (max-width: 500px) {
     body {
       height:100%;
-      background-position: center center;
+      background-position: center;
       background-repeat: no-repeat;
       webkit-background-size: cover;
       background-attachment:scroll !important;
@@ -311,6 +311,7 @@ footer {
     html {
       overflow: hidden !important;
        position: fixed;
+       height:100%;
     }
 
     .wrapper {
@@ -349,10 +350,12 @@ footer {
       text-transform: uppercase;
       color: #8d8d8d;
     }
+    .overlay {
+      margin-bottom: 80px;
+    }
 
     .overlay .content {
-      margin-left: 1%;
-      margin-right: 1%;
-    padding-bottom:80px;
+      margin-left: 0.5%;
+      margin-right:0.5%;
     }
   }
