@@ -352,14 +352,13 @@ footer {
     }
 
     #biotext {
-      text-align: justify;
+      text-align: left;
       width: 85%;
     }
 
     .overlay .content {
       margin-left: 0.5%;
       margin-right:0.5%;
-        letter-spacing: -0.05em;
       padding-bottom: 80px !important;
     }
   }
