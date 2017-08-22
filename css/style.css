@@ -306,12 +306,17 @@ footer {
       overflow: hidden;
     }
 
+    body.noscroll{
+    position:fixed;
+    overflow:hidden;
+}
+
     .nav {
       font-size: 0.6em;
     }
-    
+
 footer {
-  bottom: 44px;
+  bottom: 60px;
 
 }
 
