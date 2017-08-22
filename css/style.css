@@ -312,11 +312,7 @@ footer {
       overflow: hidden !important;
        position: fixed;
        height:100%;
-    }
-
-    .wrapper {
-      overflow:hidden !important;
-       position: fixed;
+       width:100%;
     }
 
     .nav {
