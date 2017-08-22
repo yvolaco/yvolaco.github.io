@@ -354,6 +354,6 @@ footer {
     .overlay .content {
       margin-left: 0.5%;
       margin-right:0.5%;
-      margin-bottom: 10% !important;
+      padding-bottom: 10% !important;
     }
   }
