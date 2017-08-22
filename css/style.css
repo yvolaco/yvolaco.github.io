@@ -305,11 +305,13 @@ footer {
       background-size: cover;
       background-attachment:scroll !important;
       overflow: hidden !important;
+      position:relative;
     }
 
     html {
       overflow: hidden !important;
        position: fixed;
+       padding-bottom:60px;
     }
 
     .wrapper {
@@ -320,11 +322,6 @@ footer {
     .nav {
       font-size: 0.6em;
     }
-
-footer {
-  bottom: 60px;
-
-}
 
     ul {
       padding-right: 5px;
