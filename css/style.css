@@ -15,6 +15,7 @@
   color: #8d8d8d;
   background-color: none;
   padding: 0;
+  font-weight:300;
 }
 
 .title {
@@ -390,7 +391,6 @@ footer {
 
     .nav {
       font-size: 0.6em;
-      font-weight:200;
     }
     .title {
       padding-top:30vh;
