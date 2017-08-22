@@ -298,25 +298,22 @@ footer {
     }
   }
   @media only screen and (max-width: 500px) {
-    html, body {
+    body {
+      height:100vh;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       overflow: hidden;
-      position:relative;
     }
-
-
-.wrapper{
-position:relative;
-overflow:hidden;
-  padding-bottom:44px;
-}
 
     .nav {
       font-size: 0.6em;
     }
+    
+footer {
+  bottom: 44px;
 
+}
 
     ul {
       padding-right: 5px;
