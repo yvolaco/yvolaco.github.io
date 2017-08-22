@@ -352,7 +352,6 @@ footer {
     }
     .overlay {
       margin-bottom: 80px !important;
-      z-index:2;
     }
 
     .overlay .content {
