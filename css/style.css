@@ -304,11 +304,15 @@ footer {
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment:scroll !important;
-      overflow: hidden;
+      overflow: hidden !important;
+    }
+
+    html {
+      overflow: hidden !important;
     }
 
     .wrapper {
-      overflow:hidden;
+      overflow:hidden !important;
     }
 
     .nav {
