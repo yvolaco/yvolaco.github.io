@@ -305,7 +305,7 @@ footer {
       background-size: cover;
       background-attachment:scroll !important;
       overflow: hidden !important;
-      position:relative;
+
     }
 
     html {
@@ -316,7 +316,7 @@ footer {
     .wrapper {
       overflow:hidden !important;
        position: fixed;
-      padding-bottom:60px;
+       padding-bottom:60px;
     }
 
     .nav {
