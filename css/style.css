@@ -359,7 +359,7 @@ footer {
     .overlay .content {
       margin-left: 0.5%;
       margin-right:0.5%;
-        letter-spacing: auto;
+        letter-spacing: -0.05em;
       padding-bottom: 80px !important;
     }
   }
