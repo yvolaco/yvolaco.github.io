@@ -352,8 +352,8 @@ footer {
     }
 
     #biotext {
-      text-align: left;
-      width: 85%;
+      text-align: justify;
+      width: 90%;
     }
 
     .overlay .content {
