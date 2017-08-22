@@ -163,7 +163,6 @@ h4 {
   height: 100vh;
   background-color: #000000;
   opacity: 0.8;
-  top: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -309,6 +308,11 @@ footer {
     .nav {
       font-size: 0.6em;
     }
+
+    footer {
+      bottom: 20px;
+    }
+
     ul {
       padding-right: 5px;
     }
