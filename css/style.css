@@ -304,14 +304,19 @@ footer {
       background-repeat: no-repeat;
       background-size: cover;
       overflow: hidden;
+      padding-bottom:44px;
     }
+
+
+.wrapper{
+position:relative;
+overflow:hidden;
+}
+
     .nav {
       font-size: 0.6em;
     }
 
-    footer {
-      bottom: 20px;
-    }
 
     ul {
       padding-right: 5px;
