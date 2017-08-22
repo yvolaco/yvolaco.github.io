@@ -326,7 +326,7 @@ footer {
       text-transform: uppercase;
     }
     h1 {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 3em;
       transition: transform 0.5s ease;
       opacity: 1;
@@ -408,7 +408,7 @@ footer {
       text-transform: uppercase;
     }
     h1 {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 2.5em;
       transition: transform 0.5s ease;
       opacity: 1;
