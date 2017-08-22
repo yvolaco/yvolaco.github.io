@@ -306,10 +306,12 @@ footer {
       overflow: hidden;
     }
 
-    body.noscroll{
-    position:fixed;
-    overflow:hidden;
-}
+    body.lock-position {
+      height: 100%;
+      overflow: hidden;
+      width: 100%;
+      position: fixed;
+    }
 
     .nav {
       font-size: 0.6em;
