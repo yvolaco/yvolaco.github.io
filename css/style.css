@@ -299,6 +299,13 @@
       text-align: justify;
       width: 80%;
     }
+
+    .overlay .content {
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      padding-bottom: 40px !important;
+    }
+
     #resumeleft {
       float: left;
       width: 50%;
@@ -431,7 +438,7 @@
       color: #ffa390;
     }
     h3 {
-      font-size: 0.65em;
+      font-size: 1em;
       text-transform: uppercase;
       color: #8d8d8d;
     }
