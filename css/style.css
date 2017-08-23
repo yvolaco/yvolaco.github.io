@@ -290,6 +290,11 @@
       height: 100%;
       width: 100%;
     }
+
+    footer {
+      bottom: 20px;
+    }
+
     #biotext {
       text-align: justify;
       width: 80%;
