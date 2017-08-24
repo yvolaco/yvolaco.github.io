@@ -531,7 +531,5 @@
       margin-left: 0.5%;
       margin-right: 0.5%;
       padding-bottom: 80px !important;
-      overflow-y: scroll;
-      -webkit-overflow-scrolling: touch;
     }
   }
