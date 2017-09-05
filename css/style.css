@@ -153,12 +153,21 @@
     font-size: 1.4em;
     text-align: center;
     text-transform: uppercase;
-    color: #8d8d8d;
+    color: #fff;
     margin-bottom: 5px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 30px;
     border-bottom: 1px solid rgba(120, 120, 120, 0.8);
+    opacity:0.8;
+  }
+
+  strong {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.8;
   }
 
   .wrapper {
