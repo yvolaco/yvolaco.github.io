@@ -259,20 +259,22 @@
 
   #performancelink, #choreolink {
     display: inline-block;
-    font-size: 1em;
+    font-weight: 100;
+    font-size: 3.5em;
+    transition: transform 0.5s ease;
+    opacity: 1;
     text-align: center;
     padding: 5px;
     text-transform: uppercase;
-    transition: transform 0.5s ease;
     margin-bottom: -10px;
   }
 
   #performancelink:hover, #choreolink:hover {
     font-weight: bold;
+    transform: scale(1.3);
     opacity: 1;
-    color: #8d8d8d;
-    cursor: pointer;
-    transform: scale(1.02);
+    color: #ffa390;
+    cursor:pointer;
   }
 
   #performance, #choreography {
