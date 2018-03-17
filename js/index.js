@@ -45,23 +45,19 @@ $("#choreolink").click(function(){
 
 
 
-    $(function($) {
-      function fixDiv() {
-        var $cache = $('#getFixed');
-        if ($(window).scrollTop() > 100)
-          $cache.css({
-            'position': 'fixed',
-            'top': '10px'
-          });
-        else
-          $cache.css({
-            'position': 'relative',
-            'top': 'auto'
-          });
-      }
-      $(window).scroll(fixDiv);
-      fixDiv();
+
+  $(document).ready(function () {
+    var top = $('.sticky-links').offset().top;
+    $(window).scroll(function (event) {
+      var y = $(this).scrollTop();
+      if (y >= top)
+        $('.sticky-links').addClass('fixed');
+      else
+        $('.sticky-links').removeClass('fixed');
+      $('.sticky-links').width($('.sticky-links').parent().width());
     });
+  });
+
 
 
   $("#performance").unitegallery({

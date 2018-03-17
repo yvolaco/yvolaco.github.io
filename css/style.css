@@ -10,6 +10,12 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  .fixed {
+  position:fixed;
+  top:0;
+  z-index:99999;
+}
+
   .nav {
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -331,6 +337,32 @@
       padding-bottom: 40px !important;
     }
 
+    #performancelink {
+      display:inline-block;
+      font-weight: 100;
+      font-size: 3em;
+      transition: transform 0.5s ease;
+      opacity: 1;
+      text-align: center;
+      padding: 10px;
+      margin-right:2%;
+      text-transform: uppercase;
+      margin-bottom: -10px;
+    }
+
+  #choreolink {
+      display:inline-block;
+      font-weight: 100;
+      font-size: 3em;
+      transition: transform 0.5s ease;
+      opacity: 1;
+      text-align: center;
+      padding: 10px;
+      text-transform: uppercase;
+      margin-left:2%;
+      margin-bottom: -10px;
+    }
+
     #resumeleft {
       float: left;
       width: 50%;
@@ -404,6 +436,33 @@
       margin-right: 0.5%;
       padding-bottom: 60px !important;
     }
+
+    #performancelink {
+      display:inline-block;
+      font-weight: 100;
+      font-size: 2.5em;
+      transition: transform 0.5s ease;
+      opacity: 1;
+      text-align: center;
+      padding: 10px;
+      margin-right:1%;
+      text-transform: uppercase;
+      margin-bottom: -10px;
+    }
+
+  #choreolink {
+      display:inline-block;
+      font-weight: 100;
+      font-size: 2.5em;
+      transition: transform 0.5s ease;
+      opacity: 1;
+      text-align: center;
+      padding: 10px;
+      text-transform: uppercase;
+      margin-left:1%;
+      margin-bottom: -10px;
+    }
+
     #resumeleft {
       width: auto;
       display: block;
@@ -467,6 +526,34 @@
       text-transform: uppercase;
       color: #8d8d8d;
     }
+
+    #performancelink {
+      display:inline-block;
+      font-weight: 100;
+      font-size: 2em;
+      transition: transform 0.5s ease;
+      opacity: 1;
+      text-align: center;
+      padding: 10px;
+      margin-right:0%;
+      text-transform: uppercase;
+      margin-bottom: -10px;
+    }
+
+  #choreolink {
+      display:inline-block;
+      font-weight: 100;
+      font-size: 2em;
+      transition: transform 0.5s ease;
+      opacity: 1;
+      text-align: center;
+      padding: 10px;
+      text-transform: uppercase;
+      margin-left:0%;
+      margin-bottom: -10px;
+    }
+
+
     #biotext {
       text-align: justify;
       width: 85%;
@@ -561,7 +648,7 @@
     #performancelink {
       display:inline-block;
       font-weight: 100;
-      font-size: 2.5em;
+      font-size: 2em;
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
@@ -574,7 +661,7 @@
   #choreolink {
       display:inline-block;
       font-weight: 100;
-      font-size: 2.5em;
+      font-size: 2em;
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
