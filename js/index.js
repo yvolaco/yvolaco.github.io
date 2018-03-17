@@ -45,17 +45,23 @@ $("#choreolink").click(function(){
 
 
 
-    $('a[href*=#]:not([href=#])').click(function() {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-        if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
+    jQuery(function($) {
+      function fixDiv() {
+        var $cache = $('#getFixed');
+        if ($(window).scrollTop() > 100)
+          $cache.css({
+            'position': 'fixed',
+            'top': '10px'
+          });
+        else
+          $cache.css({
+            'position': 'relative',
+            'top': 'auto'
+          });
+      }
+      $(window).scroll(fixDiv);
+      fixDiv();
     });
-
 
 
   $("#performance").unitegallery({
