@@ -26,11 +26,19 @@ $(document).ready(function() {
 
   $("#performancelink").click(function(){
     $(".choreography").hide();
+    $(".reel").hide();
     $(".performance").fadeIn(500);
+});
+
+$("#reellink").click(function(){
+  $(".choreography").hide();
+  $(".performance").hide();
+  $(".reel").fadeIn(500);
 });
 
 $("#choreolink").click(function(){
   $(".performance").hide();
+  $(".reel").hide();
   $(".choreography").fadeIn(500);
 });
 
