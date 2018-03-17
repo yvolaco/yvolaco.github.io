@@ -18,11 +18,13 @@
 
 .embed-container {
   position: relative;
-  padding-bottom: 20%;
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 75%;
   height: auto;
+  margin-top:0px;
+  margin-bottom:0px;
   }
   .embed-container iframe,
   .embed-container object,
