@@ -45,7 +45,7 @@ $("#choreolink").click(function(){
 
 
 
-    jQuery(function($) {
+    $(function($) {
       function fixDiv() {
         var $cache = $('#getFixed');
         if ($(window).scrollTop() > 100)
