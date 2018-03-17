@@ -260,7 +260,7 @@
   #performancelink, #choreolink {
     display:block;
     font-weight: 100;
-    font-size: 3.5em;
+    font-size: 2.5em;
     transition: transform 0.5s ease;
     opacity: 1;
     text-align: center;
