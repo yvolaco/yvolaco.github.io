@@ -266,12 +266,12 @@
   #performancelink {
     display:inline-block;
     font-weight: 100;
-    font-size: 3.5em;
+    font-size: 2.5em;
     transition: transform 0.5s ease;
     opacity: 1;
     text-align: center;
-    padding: 10px;
-    margin-right:3%;
+    padding: 5px;
+    margin-right:2%;
     text-transform: uppercase;
     margin-bottom: -10px;
   }
@@ -279,13 +279,13 @@
 #choreolink {
     display:inline-block;
     font-weight: 100;
-    font-size: 3.5em;
+    font-size: 2.5em;
     transition: transform 0.5s ease;
     opacity: 1;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     text-transform: uppercase;
-    margin-left:3%;
+    margin-left:2%;
     margin-bottom: -10px;
   }
 
@@ -344,8 +344,8 @@
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
-      padding: 10px;
-      margin-right:1%;
+      padding: 5px;
+      margin-right:0%;
       text-transform: uppercase;
       margin-bottom: -10px;
     }
@@ -357,9 +357,9 @@
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
-      padding: 10px;
+      padding: 5px;
       text-transform: uppercase;
-      margin-left:1%;
+      margin-left:0%;
       margin-bottom: -10px;
     }
 
@@ -444,7 +444,7 @@
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
-      padding: 10px;
+      padding: 5px;
       margin-right:0%;
       text-transform: uppercase;
       margin-bottom: -10px;
@@ -457,7 +457,7 @@
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
-      padding: 10px;
+      padding: 5px;
       text-transform: uppercase;
       margin-left:0%;
       margin-bottom: -10px;
@@ -534,7 +534,7 @@
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
-      padding: 10px;
+      padding: 5px;
       margin-right:0%;
       text-transform: uppercase;
       margin-bottom: -10px;
@@ -547,7 +547,7 @@
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
-      padding: 10px;
+      padding: 5px;
       text-transform: uppercase;
       margin-left:0%;
       margin-bottom: -10px;
@@ -648,12 +648,11 @@
     #performancelink {
       display:inline-block;
       font-weight: 100;
-      font-size: 2em;
+      font-size: 1em;
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
       padding: 3px;
-
       text-transform: uppercase;
       margin-bottom: -10px;
     }
@@ -661,7 +660,7 @@
   #choreolink {
       display:inline-block;
       font-weight: 100;
-      font-size: 2em;
+      font-size: 1em;
       transition: transform 0.5s ease;
       opacity: 1;
       text-align: center;
