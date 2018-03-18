@@ -45,21 +45,6 @@ $("#choreolink").click(function(){
 
 
 
-
-  $(document).ready(function () {
-    var top = $('.sticky-links').offset().top;
-    $(window).scroll(function (event) {
-      var y = $(this).scrollTop();
-      if (y >= top)
-        $('.sticky-links').addClass('fixed');
-      else
-        $('.sticky-links').removeClass('fixed');
-      $('.sticky-links').width($('.sticky-links').parent().width());
-    });
-  });
-
-
-
   $("#performance").unitegallery({
     tile_enable_image_effect: true,
     tile_enable_overlay: false,
